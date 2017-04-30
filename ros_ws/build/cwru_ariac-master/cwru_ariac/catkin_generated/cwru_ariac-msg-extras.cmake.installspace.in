@@ -1,0 +1,2 @@
+set(cwru_ariac_MESSAGE_FILES "msg/RobotMoveAction.msg;msg/RobotMoveActionGoal.msg;msg/RobotMoveActionResult.msg;msg/RobotMoveActionFeedback.msg;msg/RobotMoveGoal.msg;msg/RobotMoveResult.msg;msg/RobotMoveFeedback.msg;msg/AGV.msg;msg/Bin.msg;msg/BoundBox.msg;msg/Dimension.msg;msg/Grid.msg;msg/Part.msg;msg/PartType.msg;msg/RobotState.msg")
+set(cwru_ariac_SERVICE_FILES "srv/OracleQuery.srv")

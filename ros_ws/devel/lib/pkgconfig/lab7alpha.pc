@@ -1,0 +1,8 @@
+prefix=/home/user/ros_ws/devel
+
+Name: lab7alpha
+Description: Description of lab7alpha
+Version: 0.0.0
+Cflags: -I/home/user/ros_ws/devel/include -I/home/user/ros_ws/src/eecs476_alpha/lab7alpha/include
+Libs: -L/home/user/ros_ws/devel/lib -lalpha_traj_builder
+Requires: message_runtime geometry_msgs nav_msgs roscpp sensor_msgs std_msgs xform_utils odom_tf

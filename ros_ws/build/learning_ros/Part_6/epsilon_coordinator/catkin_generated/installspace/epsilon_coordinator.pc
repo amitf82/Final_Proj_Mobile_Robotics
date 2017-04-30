@@ -1,0 +1,8 @@
+prefix=/home/user/ros_ws/install
+
+Name: epsilon_coordinator
+Description: Description of epsilon_coordinator
+Version: 0.0.0
+Cflags: -I/home/user/ros_ws/install/include
+Libs: -L/home/user/ros_ws/install/lib 
+Requires: roscpp std_msgs

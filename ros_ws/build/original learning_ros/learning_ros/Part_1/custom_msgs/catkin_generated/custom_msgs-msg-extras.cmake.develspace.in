@@ -1,0 +1,2 @@
+set(custom_msgs_MESSAGE_FILES "/home/user/ros_ws/src/original learning_ros/learning_ros/Part_1/custom_msgs/msg/VecOfDoubles.msg")
+set(custom_msgs_SERVICE_FILES "")

@@ -1,0 +1,8 @@
+prefix=/home/user/ros_ws/install
+
+Name: ariac_ur_fk_ik
+Description: Description of ariac_ur_fk_ik
+Version: 0.0.0
+Cflags: -I/home/user/ros_ws/install/include
+Libs: -L/home/user/ros_ws/install/lib -lariac_ur10_fk_ik
+Requires: roscpp

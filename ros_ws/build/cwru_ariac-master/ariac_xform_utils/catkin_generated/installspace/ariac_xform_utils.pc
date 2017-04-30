@@ -1,0 +1,8 @@
+prefix=/home/user/ros_ws/install
+
+Name: ariac_xform_utils
+Description: Description of ariac_xform_utils
+Version: 0.0.0
+Cflags: -I/home/user/ros_ws/install/include
+Libs: -L/home/user/ros_ws/install/lib -lariac_xform_utils
+Requires: roscpp std_msgs tf geometry_msgs

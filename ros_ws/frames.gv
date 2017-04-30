@@ -1,0 +1,17 @@
+digraph G {
+"base" -> "base_laser1_link"[label="Broadcaster: /base_laser1_broadcaster\nAverage rate: 10.209 Hz\nMost recent transform: 1492109845.975 ( -7.213 sec old)\nBuffer length: 4.506 sec\n"];
+"base" -> "camera_link"[label="Broadcaster: /from_torso_to_camera_link_static_tf\nAverage rate: 20.170 Hz\nMost recent transform: 1492109846.004 ( -7.242 sec old)\nBuffer length: 4.561 sec\n"];
+"camera_link" -> "camera_depth_frame"[label="Broadcaster: /camera_base_link\nAverage rate: 10.214 Hz\nMost recent transform: 1492109845.976 ( -7.213 sec old)\nBuffer length: 4.406 sec\n"];
+"camera_link" -> "camera_rgb_frame"[label="Broadcaster: /camera_base_link1\nAverage rate: 10.214 Hz\nMost recent transform: 1492109845.976 ( -7.213 sec old)\nBuffer length: 4.406 sec\n"];
+"camera_depth_frame" -> "camera_depth_optical_frame"[label="Broadcaster: /camera_base_link2\nAverage rate: 10.214 Hz\nMost recent transform: 1492109845.977 ( -7.214 sec old)\nBuffer length: 4.406 sec\n"];
+"camera_rgb_frame" -> "camera_rgb_optical_frame"[label="Broadcaster: /camera_base_link3\nAverage rate: 10.214 Hz\nMost recent transform: 1492109845.976 ( -7.213 sec old)\nBuffer length: 4.406 sec\n"];
+"odom" -> "base_link"[label="Broadcaster: /odometry\nAverage rate: 50.222 Hz\nMost recent transform: 1492109845.927 ( -7.165 sec old)\nBuffer length: 4.500 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1492109838.762"[ shape=plaintext ] ;
+ }->"base";
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1492109838.762"[ shape=plaintext ] ;
+ }->"odom";
+}

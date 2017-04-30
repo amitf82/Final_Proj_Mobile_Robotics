@@ -1,0 +1,8 @@
+prefix=/home/user/ros_ws/install
+
+Name: final_lab
+Description: Description of final_lab
+Version: 0.0.0
+Cflags: -I/home/user/ros_ws/install/include
+Libs: -L/home/user/ros_ws/install/lib -lalpha_traj_builder
+Requires: roscpp std_msgs geometry_msgs nav_msgs xform_utils odom_tf

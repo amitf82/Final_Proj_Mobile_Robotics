@@ -1,0 +1,2 @@
+set(part_fetcher_MESSAGE_FILES "/home/user/ros_ws/devel/share/part_fetcher/msg/PartFetcherAction.msg;/home/user/ros_ws/devel/share/part_fetcher/msg/PartFetcherActionGoal.msg;/home/user/ros_ws/devel/share/part_fetcher/msg/PartFetcherActionResult.msg;/home/user/ros_ws/devel/share/part_fetcher/msg/PartFetcherActionFeedback.msg;/home/user/ros_ws/devel/share/part_fetcher/msg/PartFetcherGoal.msg;/home/user/ros_ws/devel/share/part_fetcher/msg/PartFetcherResult.msg;/home/user/ros_ws/devel/share/part_fetcher/msg/PartFetcherFeedback.msg")
+set(part_fetcher_SERVICE_FILES "")
